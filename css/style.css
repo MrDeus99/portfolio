@@ -502,6 +502,13 @@ span:hover .popup{
         overflow-x: hidden;
         text-overflow: ellipsis;
     }
+    #subtitle{
+    
+        font-family: 'Roboto';
+        color: var(--white);
+        font-size: 15px;
+       margin-left: -50px;
+       white-space:nowrap;
 }
 
 /*Mini phone*/
@@ -518,12 +525,29 @@ span:hover .popup{
         width:40px;
         height: 40px;
     }
+    #subtitle{
+    
+        font-family: 'Roboto';
+        color: var(--white);
+        font-size: 15px;
+       margin-left: -50px;
+       white-space:nowrap;
+
 }
+
 
 @media only screen and (max-width: 400px) {
     .lingue span:nth-of-type(2){
         display: none;
     }
+    #subtitle{
+    
+        font-family: 'Roboto';
+        color: var(--white);
+        font-size: 15px;
+       margin-left: -50px;
+       white-space:nowrap;
+
 }
 
 
@@ -539,6 +563,13 @@ span:hover .popup{
     #imgGabi{
         opacity: 0.5;
     }
+    #subtitle{
+    
+        font-family: 'Roboto';
+        color: var(--white);
+        font-size: 15px;
+       margin-left: -50px;
+       white-space:nowrap;
 }
 
 @media only screen and (min-height: 1200px) {
