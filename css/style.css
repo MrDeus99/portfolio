@@ -88,6 +88,7 @@ a{
     text-align: center;
     justify-content: var(--tertiary);
     z-index: 10;
+    
 }
 #menu div{
     font-family: var(--roboto);
@@ -98,11 +99,13 @@ a{
     padding: 0 20px;
     font-size: var(--mini);
     cursor: pointer;
-    transition: all 3s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    
 }
 #menu div:hover{
-    transform: scale(1.03);
+    transform: scale(1.5);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
+    
 }
 #midNav{
     width: 50%;
@@ -274,23 +277,8 @@ a{
     justify-content: center;
     flex-direction: row;
 }
-.projectText{
-    width:70%;
-    height: fit-content;
-    padding-right: 10px;
-}
-.projectImg{
-    width:30%;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    display:flex;
-    align-items: center;
-    justify-content: center;
 
-    border-radius: 5px;
-}
+
 
 
 #footer{
