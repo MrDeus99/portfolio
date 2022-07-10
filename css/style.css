@@ -50,9 +50,7 @@
 body{
     background-color: var(--primary);
     color: var(--white);
-
     font-family: var(--roboto);
-
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -66,7 +64,7 @@ a{
     height:85%;
     position: fixed;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
     flex-direction: row;
 }
@@ -85,9 +83,9 @@ a{
 #menu{
     position:fixed;
     top: 30px;
-    right: 30px;
+    right:180px;
     display: flex;
-    text-align: right;
+    text-align: center;
     justify-content: var(--tertiary);
     z-index: 10;
 }
@@ -100,7 +98,7 @@ a{
     padding: 0 20px;
     font-size: var(--mini);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 #menu div:hover{
     transform: scale(1.03);
@@ -293,9 +291,7 @@ a{
 
     border-radius: 5px;
 }
-.projectImg img{
-    height: 100%;
-}
+
 
 #footer{
     width:100vw;
@@ -433,9 +429,7 @@ span:hover .popup{
     .contentContainer::after{
         left: 0;
     }
-    .projectImg{
-        height: 300px;
-    }
+   
     .progress{
         width:200px;
     }
