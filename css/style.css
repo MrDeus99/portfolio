@@ -62,7 +62,7 @@ ul{
 }
 ul li{
     list-style:none;
-    margin:0 30px;
+    margin:0 35px;
     transition: 0.5s;
 } 
 ul li a {
@@ -70,10 +70,10 @@ ul li a {
     position: relative;
     text-decoration: none;
     font-size: medium ;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     color: var(--white);
     transform: scale(1.4);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
+    text-shadow: 5px 5px 10px rgba(8, 106, 133, 0.411);
     
 } 
 ul:hover li a{
@@ -165,7 +165,7 @@ a{
 }
 #title{
     width: fit-content;
-    font-family: var(--roboto);
+    font-family: 'Roboto';
     color: var(--white);
     font-size: var(--mega);
     line-height: var(--mega);
@@ -173,11 +173,14 @@ a{
     
 }
 #subtitle{
-    width: fit-content;
-    font-family: var(--black);
+    
+    font-family: 'Roboto';
     color: var(--white);
-    font-size: var(--small);
+    font-size: var(--mini);
     text-align: center;
+    margin-right: 80px;
+    
+
 }
 
 #midNav2{
